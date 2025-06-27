@@ -19,7 +19,7 @@ cd React
 ```bash
 npm install
 ```
-4.Ejecutar el proyecto:
+4. Ejecutar el proyecto:
 ```bash
 npm run dev
 ```
