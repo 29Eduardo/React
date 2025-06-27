@@ -1,11 +1,11 @@
 function CursosRealizados() {
   return (
     <div>
-      <h2>Cursos Realizados</h2>
-      <ul>
-        <li>Curso de Html y CSS</li>
-        <li>Curso de Barberia</li>
-      </ul>
+      <h2 className="section-title">Cursos Realizados</h2>
+      <div className="list-group">
+        <div className="list-group-item">Curso de Html y CSS</div>
+        <div className="list-group-item">Curso de Barberia</div>
+      </div>
     </div>
   );
 }
