@@ -1,0 +1,43 @@
+h1 {
+  color:lightblue;
+}
+
+h3 {
+color:aqua;
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 32rem; 
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: chocolate;
+    list-style-type: none;
+}
+
+.body  {
+    color: white;
+    background-color: darkolivegreen;
+    display: flex; 
+    flex-direction: column;
+    direction: center;
+
+
+}
+
