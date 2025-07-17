@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import NombreApellido from './components/NombreApellido'
 import DatosPersonales from './components/DatosPersonales'
 import Contacto from './components/Contacto'
@@ -7,6 +7,7 @@ import CursosRealizados from './components/CursosRealizados'
 import Estudios from './components/Estudios'
 import HabilidadesBlandas from './components/HabilidadesBlandas'
 import HabilidadesTecnicas from './components/HabilidadesTecnicas'
+import ListaUsuarios from './components/ListaUsuarios';
 import './components/Estilo.css'
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
             <li className="nav-item">
               <Link className="nav-link" to="/contacto">Contacto</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/usuarios">Usuarios</Link>
+            </li>
           </ul>
         </nav>
 
@@ -50,6 +54,8 @@ function App() {
               <Route path="/blandas" element={<HabilidadesBlandas />} />
               <Route path="/tecnicas" element={<HabilidadesTecnicas />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/usuarios" element={<ListaUsuarios />} />
+
             </Routes>
           </div>
         </div>
